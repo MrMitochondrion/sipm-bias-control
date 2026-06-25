@@ -594,9 +594,8 @@ void loop()
   {
     // print init message
     if (!have_mcp)
-      Serial.println("Failed to find MCP4728 chip");
+      Serial.println("Failed to find DAC chip");
     else
-      Serial.println("Found MCP4728 chip");
     // apply settings from ROM
     readEEPROM();
     setVoltageAndOffset(gain, offset);
