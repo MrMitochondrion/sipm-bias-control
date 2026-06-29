@@ -2997,6 +2997,12 @@
 		(uuid "519ddd5e-823e-420b-a97d-dc7636b2a871")
 	)
 	(junction
+		(at 289.56 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565826dd-50f8-4609-b6ac-422fe90ca2ea")
+	)
+	(junction
 		(at 360.68 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3243,6 +3249,16 @@
 			(type solid)
 		)
 		(uuid "1d1b1cfd-6682-4708-84b6-51dca83d3eb6")
+	)
+	(wire
+		(pts
+			(xy 289.56 199.39) (xy 289.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb138a4-d09a-4cc8-8fbf-bbe254935fba")
 	)
 	(wire
 		(pts
@@ -3826,6 +3842,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 198.12) (xy 290.83 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b84bbc-b4da-4624-9b04-510183020e0c")
+	)
+	(wire
+		(pts
 			(xy 317.5 210.82) (xy 317.5 177.8)
 		)
 		(stroke
@@ -3906,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 198.12) (xy 290.83 198.12)
+			(xy 287.02 198.12) (xy 289.56 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8349,6 +8375,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 289.56 204.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64360a2a-9b51-4943-ab00-45f29c94cda6")
+		(property "Reference" "#PWR013"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.433 208.8642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d040d64-b11b-4b16-958e-f118cae9b0d0")
+		)
+		(instances
+			(project "tiav3"
+				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 226.06 143.51 270)
 		(unit 1)
@@ -9362,6 +9453,74 @@
 			(project "tiav3"
 				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 289.56 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d00a82a7-d2f1-4c5b-a266-72d417943290")
+		(property "Reference" "R9"
+			(at 287.655 203.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 287.274 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 289.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01f3713d-b8df-49d9-996d-45a14e5e227b")
+		)
+		(pin "2"
+			(uuid "fe891cb9-0c3c-4242-95a6-782056911978")
+		)
+		(instances
+			(project "tiav3"
+				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
+					(reference "R9")
 					(unit 1)
 				)
 			)
