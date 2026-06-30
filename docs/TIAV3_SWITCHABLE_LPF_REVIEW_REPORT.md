@@ -448,7 +448,9 @@ If gain = −2 was intended: fix the schematic annotation.
 
 This matters for signal headroom. At gain = −2, the OPA842 output swing is 2× the TIA output. Verify this does not cause saturation for the largest expected SiPM pulses, and that the TMUX1209 input swing limit (see Risk 2) is respected.
 
+###
 ### Risk 4 — EN Pin Floating When J3 Unpopulated
+###
 **Severity: Medium**
 
 No pull-down or pull-up resistor on the EN pin. If J3 is not populated or the control connector is disconnected, EN floats and the TMUX1209 may enable any channel. Add a 10 kΩ pull-down from EN to GND to ensure default-off behavior.
