@@ -2997,12 +2997,6 @@
 		(uuid "519ddd5e-823e-420b-a97d-dc7636b2a871")
 	)
 	(junction
-		(at 289.56 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "565826dd-50f8-4609-b6ac-422fe90ca2ea")
-	)
-	(junction
 		(at 360.68 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3252,16 +3246,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 199.39) (xy 289.56 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb138a4-d09a-4cc8-8fbf-bbe254935fba")
-	)
-	(wire
-		(pts
 			(xy 152.4 157.48) (xy 114.3 157.48)
 		)
 		(stroke
@@ -3489,6 +3473,16 @@
 			(type default)
 		)
 		(uuid "3cb300e7-9220-4c55-8ceb-3074b4b3b444")
+	)
+	(wire
+		(pts
+			(xy 287.02 198.12) (xy 289.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4000642e-1ec6-4c22-969e-6ef3b8864df4")
 	)
 	(wire
 		(pts
@@ -3842,16 +3836,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 198.12) (xy 290.83 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89b84bbc-b4da-4624-9b04-510183020e0c")
-	)
-	(wire
-		(pts
 			(xy 317.5 210.82) (xy 317.5 177.8)
 		)
 		(stroke
@@ -3929,16 +3913,6 @@
 			(type default)
 		)
 		(uuid "9b322b6a-7dc4-45f9-8414-6c335e5c6cbd")
-	)
-	(wire
-		(pts
-			(xy 287.02 198.12) (xy 289.56 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d989e2d-b502-4b5e-ad9d-06a3c055e464")
 	)
 	(wire
 		(pts
@@ -6532,7 +6506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "45"
 			(at 248.285 160.655 90)
 			(effects
 				(font
@@ -7050,72 +7024,6 @@
 			(project "tiav3"
 				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 290.83 198.12 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "069aa6d0-55ad-4942-897f-b5d80f8be85e")
-		(property "Reference" "#PWR033"
-			(at 287.02 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EN"
-			(at 294.005 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 290.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e47f9c4-e810-4133-9517-129dbf7239c8")
-		)
-		(instances
-			(project "tiav3"
-				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7726,71 +7634,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 134.62 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27bb2fbc-81ba-4d25-a695-a5eebe3c7bba")
-		(property "Reference" "#PWR036"
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EN"
-			(at 131.445 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acae884e-e991-4bed-8dc9-429bf7489ec7")
-		)
-		(instances
-			(project "tiav3"
-				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 54.61 0)
 		(unit 1)
@@ -8375,71 +8218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 289.56 204.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64360a2a-9b51-4943-ab00-45f29c94cda6")
-		(property "Reference" "#PWR013"
-			(at 289.56 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.433 208.8642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d040d64-b11b-4b16-958e-f118cae9b0d0")
-		)
-		(instances
-			(project "tiav3"
-				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 226.06 143.51 270)
 		(unit 1)
@@ -8593,7 +8371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400"
+		(property "Value" "100"
 			(at 202.565 163.195 90)
 			(effects
 				(font
@@ -9459,74 +9237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 289.56 201.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d00a82a7-d2f1-4c5b-a266-72d417943290")
-		(property "Reference" "R9"
-			(at 287.655 203.835 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 287.274 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 289.56 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 289.56 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01f3713d-b8df-49d9-996d-45a14e5e227b")
-		)
-		(pin "2"
-			(uuid "fe891cb9-0c3c-4242-95a6-782056911978")
-		)
-		(instances
-			(project "tiav3"
-				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 360.172 199.39 0)
 		(mirror y)
@@ -9586,6 +9296,71 @@
 			(project "tiav3"
 				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e122e5af-8bc4-413a-85dd-b6c4d3c906ac")
+		(property "Reference" "#PWR033"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.493 53.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c1ec6d6-ab5f-4c6b-8a76-e3465ddab35d")
+		)
+		(instances
+			(project "tiav3"
+				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10142,6 +9917,72 @@
 			(project "tiav3"
 				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 289.56 198.12 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb9aeb32-e227-49b9-8d57-13ffe0222d60")
+		(property "Reference" "#PWR013"
+			(at 285.75 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 292.735 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ae044a5-0cef-4a9a-8d07-343ceb4514ea")
+		)
+		(instances
+			(project "tiav3"
+				(path "/548ba79d-aa60-452e-83bc-59e3672545ef"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
